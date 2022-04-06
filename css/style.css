@@ -3,10 +3,28 @@ html {
 }
 
 body {
-  background: #ffc600;
+  background: black;
   font-family: "helvetica neue";
   font-weight: 200;
   font-size: 20px;
+}
+
+.wrapper {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  color: #efe4e4;
+  font-family: "helvetica neue", sans-serif;
+}
+
+.LinkedIn {
+  width: 300px;
+  padding-left: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 30px;
 }
 
 .words {
