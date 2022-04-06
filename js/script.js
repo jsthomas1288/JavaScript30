@@ -18,7 +18,7 @@ recognition.addEventListener("result", (e) => {
 
   if (e.results[0].isFinal) {
     p = document.createElement("p");
-    if (word.includes("open LinkedIn")) {
+    if (word.includes("open LinkedIn") || word.includes("Open LinkedIn")) {
       p = document.createElement("p");
       p.innerText = "Opening LinkedIn...";
       words.append(p);
